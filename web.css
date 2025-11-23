@@ -1,6 +1,4 @@
 body {
-    /* Sets the background color for the entire page to black */
-    background-color: black;
-    /* Sets the default text color for the entire page to yellow */
-    color: yellow; 
+  background-color: black; /* or #000000 */
+  color: yellow; /* or #FFFF00 */
 }
