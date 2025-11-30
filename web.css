@@ -1,9 +1,9 @@
- .centered-paragraph {
-  max-width: 90ch; /* Limits the paragraph to roughly 90 characters wide */
-  margin: 0 auto; /* Centers the paragraph */
-  padding: 0 20px; /* Adds some horizontal padding for smaller screens */
+{
+    max-width: 90ch;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
 }
-
 
 /* 
  * Basic Typography
@@ -11,7 +11,7 @@
  */
 body {
     background-color: black;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif;
     line-height: 1.6;
     color: #a19d2b;
 }
@@ -54,4 +54,15 @@ ul, ol {
 
 .hidden {
     display: none;
+}
+p {
+  font-size: 1.2rem; /* Default font size */
+  line-height: 1.6;
+}
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem; /* Smaller font size on mobile */
+  }
 }
