@@ -1,13 +1,9 @@
-/* 
- * CSS Reset or Normalize
- * Resets browser default styles for consistent rendering across browsers.
- * Example using a simple reset for margin, padding, and box-sizing.
- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+ .centered-paragraph {
+  max-width: 90ch; /* Limits the paragraph to roughly 90 characters wide */
+  margin: 0 auto; /* Centers the paragraph */
+  padding: 0 20px; /* Adds some horizontal padding for smaller screens */
 }
+
 
 /* 
  * Basic Typography
