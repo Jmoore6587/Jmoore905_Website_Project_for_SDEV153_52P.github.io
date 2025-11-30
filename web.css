@@ -1,8 +1,17 @@
-{
-    max-width: 90ch;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+p {
+  margin: 20px; /* Default margin for larger screens */
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    margin: 10px; /* Smaller margin for screens up to 768px wide */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p {
+    margin: 5px; /* Even smaller margin for mobile devices */
+  }
 }
 
 /* 
@@ -55,14 +64,4 @@ ul, ol {
 .hidden {
     display: none;
 }
-p {
-  font-size: 1.2rem; /* Default font size */
-  line-height: 1.6;
-}
 
-/* For screens smaller than 768px (tablets and smaller) */
-@media (max-width: 768px) {
-  p {
-    font-size: 1rem; /* Smaller font size on mobile */
-  }
-}
