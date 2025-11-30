@@ -1,4 +1,61 @@
+/* 
+ * CSS Reset or Normalize
+ * Resets browser default styles for consistent rendering across browsers.
+ * Example using a simple reset for margin, padding, and box-sizing.
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+/* 
+ * Basic Typography
+ * Defines default font styles for the body and headings.
+ */
 body {
-  background-color: black; /* or #000000 */
-  color: yellow; /* or #FFFF00 */
+    background-color: black;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #FFFF00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* 
+ * Global Styles
+ * Common styles for links, lists, etc.
+ */
+a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+/* 
+ * Utility Classes (optional, but often helpful)
+ * Reusable classes for common styling needs.
+ */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
