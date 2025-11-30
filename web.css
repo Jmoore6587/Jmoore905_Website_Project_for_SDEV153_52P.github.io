@@ -1,23 +1,19 @@
 p {
-  margin: 20px; /* Default margin for larger screens */
+  margin: 20px; 
 }
 
 @media screen and (max-width: 768px) {
   p {
-    margin: 10px; /* Smaller margin for screens up to 768px wide */
+    margin: 10px; 
   }
 }
 
 @media screen and (max-width: 480px) {
   p {
-    margin: 5px; /* Even smaller margin for mobile devices */
+    margin: 5px; 
   }
 }
 
-/* 
- * Basic Typography
- * Defines default font styles for the body and headings.
- */
 body {
     background-color: black;
     font-family: Georgia, serif;
@@ -47,10 +43,6 @@ ul, ol {
     margin-left: 20px;
 }
 
-/* 
- * Utility Classes (optional, but often helpful)
- * Reusable classes for common styling needs.
- */
 .container {
     max-width: 960px;
     margin: 0 auto;
